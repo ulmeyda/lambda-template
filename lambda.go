@@ -1,5 +1,13 @@
 package main
 
+import (
+	"context"
+	"fmt"
+	"time"
+
+	"github.com/aws/aws-lambda-go/lambda"
+)
+
 type inputData struct {
 	ID *int `json:"id"`
 }
